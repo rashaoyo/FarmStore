@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FarmStore.Models;
 using Microsoft.AspNetCore.Mvc;
-using FarmStore.Models;
+using System.Diagnostics;
 
 namespace FarmStore.Controllers
-{
+{//vlad was here
     public class HomeController : Controller
     {
         public IActionResult Index()
