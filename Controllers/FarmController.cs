@@ -9,12 +9,12 @@ namespace FarmStore.Controllers
             return View();
         }
 
-        public IActionResult Stpre()
+        public IActionResult FarmStoreView()
         {
             return View();
         }
 
-        public IActionResult Cart()
+        public IActionResult CartView()
         {
             return View();
         }
