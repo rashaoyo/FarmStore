@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace FarmStore.Controllers
 {
@@ -12,5 +8,18 @@ namespace FarmStore.Controllers
         {
             return View();
         }
+
+        public IActionResult Stpre()
+        {
+            return View();
+        }
+
+        public IActionResult Cart()
+        {
+            return View();
+        }
+
+
+
     }
 }
